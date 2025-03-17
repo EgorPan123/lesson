@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "my-font";
+  src: url("../icon-font/my-font.eot?pep56u");
+  src: url("../icon-font/my-font.eot?pep56u#iefix") format("embedded-opentype"),
+    url("../icon-font/my-font.ttf?pep56u") format("truetype"), url("../icon-font/my-font.woff?pep56u") format("woff"),
+    url("../icon-font/my-font.svg?pep56u#my-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "my-font" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-css:before {
+  content: "\e900";
+}
+.icon-html:before {
+  content: "\e901";
+}
